@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+    <div id="scorecircle"><span id="score"></span></div>
+    
+    <div class="selection">
+    <div class="subselect">
+
+    <label for="level">Difficulty Level</label>    <br>
+    <label for="easy" >Easy</label>
+    <input type="radio"onchange="addnew()" name="level" id="easy" checked value="easy"><br>
+    <label for="medium">Medium</label>
+    <input type="radio"onchange="addnew()" name="level" id="medium" value="medium"><br>
+    <label for="hard">Hard</label>
+    <input type="radio"onchange="addnew()" name="level" id="hard" value="hard"><br>
+</div>
+<div  class="subselect">
+        
+    <label for="type">Question Type</label>    <br>
+    <label for="addition" >Addition</label>
+    <input type="radio"onchange="addnew()" name="type" id="addition" checked value="addition"><br>
+    <label for="subtraction">Subtraction</label>
+    <input type="radio"onchange="addnew()" name="type" id="subtraction" value="subtraction"><br>
+    <label for="multiply">Multiply</label>
+    <input type="radio"onchange="addnew()" name="type" id="multiply" value="multiply"><br>
+</div>
+</div>
+<div class="btn">
+    <button id="submit">Submit</button>
+    <button onclick="addnew()">New</button>
+</div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction" >
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+     <div class="block">
+        <div class=" blockelement" >
+         1
+        </div>
+        <div class=" blockop">
+          +
+        </div>
+        <div class="blockelement">
+            2
+        </div>
+        <div class="blockeq">
+            =
+        </div>
+        <div class="blockelement">
+            <input type="text" name="result">
+        </div>
+        <div class="correction">
+
+        </div>
+     </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>

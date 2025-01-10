@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,arial,  sans-serif;
+    
+}
+body{
+    background-color: rgb(84, 82, 82);
+}
+span{
+    text-align: center;
+}
+#scorecircle{
+    margin: auto;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 8px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.selection{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color:rgb(88, 88, 106);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.subselect{
+    background-color: rgb(46, 44, 44);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.subselect input, .subselect label{
+    margin: 10px 0px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input:focus-within{
+background-color:rgb(87, 84, 114);}
+button{
+    padding:  10px 20px;
+    background-color:  rgb(66, 59, 128);
+    color: white;
+    font-size: medium;
+    border: none;
+    margin: 15px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.blockelement{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(66, 59, 128);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+
+}
+
+.blockop{
+    width: 90px;
+    height: 90px;
+     background-color: rgb(87, 84, 114);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+}
+.blockeq{
+    width: 90px;
+    height: 90px;
+    background-color:  rgb(87, 84, 114);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+}
+.block div{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.correction{
+    width: 90px;
+    height: 90px;
+    background-size: contain;;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+}
+.container{
+    width: 80vw;
+    min-height: 100vh;
+    background-color: rgb(115, 109, 168);
+    margin: auto;
+    padding: 20px;
+    display:flex ;
+    flex-direction: column;
+}
+.block input{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    font-size: 20px;
+}
+@media (max-width:700px) {
+    .block div{
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .block input{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:500px) {
+    .block div{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .block input{
+        font-size: 15px;
+    }
+    .subselect{
+        padding: 10px;
+    }
+    
+}
